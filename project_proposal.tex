@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{color,soul}
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=cyan]{hyperref}
+\usepackage[margin=0.70in, bmargin=1.2in]{geometry}
+\usepackage{wrapfig}
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1}
+\usepackage[english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\usepackage[nottoc]{tocbibind}
+
+
+\begin{document}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{50pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.8pt}
+%\rhead{\includegraphics[height=15mm]{cornell_logo_header.png}}
+%\lhead{\Large{09/2/2017\\}}
+\chead{\Large{ORIE 4741\\Project Proposal\\Jialin Liu (jl3455), Kerou Gao (kg486), Kartikay Gupta (kg477)}}
+\rfoot{Fall 2017}
+\cfoot{\thepage}
+\begin{center}
+\Large{\textbf{\underline {Airbnb Review Score Prediction and Sensitivity Analysis}}}\\
+\end{center}
+
+\section*{Introduction}
+Airbnb is an online hospitality service that connects people, who are willing to rent or lease their extra house space, with people who are looking for short term lodging. This lucrative model enables people to find accommodation at reasonable prices in lieu of going for expensive hotel stays. Airbnb has garnered immense popularity over the past few years and has over 3 million lodging listings in 65 thousand cities and 191 countries all over the world. 
+
+\noindent As with any online service, the review score plays a very important role in the Airbnb model as a property’s occupancy rate is dependent on that score. Given the fact that the listings on Airbnb are personal properties, there is no way to assess whether the quality of the accommodation is guaranteed. This is where the review score becomes an important metric as prospective tenants look at these scores to decide whether a listing is worth staying in or not.  Moreover, the review score is also crucial to Airbnb for quality control and policy making purposes. 
+\section*{Objective}
+Keeping in mind the practicality of the review score, the aim of this project is to build a robust algorithm that can accurately predict review scores. The data for this study has been obtained from ``Inside Airbnb”, an independent, non-commercial set of tools and data that facilitates exploration of how Airbnb is being used in different cities around the world. The dataset includes features such as the listing location, price and amenities to name a few. Review comments along with the review scores of the past tenants are also provided in the dataset which may necessitate the deployment of some sentiment analysis techniques as well. As can be made out, the dataset is quite heterogeneous and poses an interesting challenge with respect to identification of key features that significantly influence the review scores. For this purpose, a sensitivity analysis will be conducted which will help in quantifying the impacts of different features on the review score.
+
+\noindent In conclusion, the results from this project will provide great insights to the Airbnb listing owners and help them identify key points that they need to address to ensure customer satisfaction. Customer satisfaction would bring in positive reviews which in turn could increase a property’s occupancy rate and generate greater revenues.
+
+
+\end{document}
