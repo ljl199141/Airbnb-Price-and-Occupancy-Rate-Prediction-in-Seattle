@@ -1,5 +1,5 @@
 # Airbnb Review Score Prediction and Sensitivity Analysis
-### Jialin Liu (jl3455), Kerou Gao (kg486) and Kartikay Gupta (kg477)
+### Jialin Liu (jl3455), Kerou Gao (kg486), Kartikay Gupta (kg477)
 
 Airbnb is a popular online hospitality service that connects people, who are willing to rent a part of their housing space, with people who are on the lookout for short term lodging. Review score of a lisiting is a critical metric that guides a tenant's decision making process. Moreover, review scores are used by Airbnb for quality control and policy making purposes. 
 
