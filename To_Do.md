@@ -7,3 +7,4 @@
 ### Work on the Error Metrics
 ### NLTK Tool kit in Scikit Learn
 ### Increasing the Degree of Fit
+### Increasing the Number of Samples by adding a new city
